@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  body {
+      background-image: url('./books.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(37, 79, 186, 1);
+    margin: 20px 10px 5px;
+    border-radius: 15px;
+    padding: 5px 10px 5px 20px;
+  }
+  .headerBtn {
+      display: flex;
+      align-items: center;
+      
+  }
+  .mainContainer {
+      margin: 40px;
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 10px;
+      border-radius: 15px;
+  }
+  .mainCardTop {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      margin-left: 40px;
+  }
+  
+  .mainCard {
+      display: flex;
+      flex-direction: column;
+  }
+  .testCard {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     background-color: rgba(255, 255, 255, 0.7);
+     width: 900px;
+     border-radius: 15px;
+     padding: 20px;
+    
+  }
+  ul {
+      list-style: none;
+      
+      
+  }
+  ul li {
+      margin-top: 20px;
+      
+      
+  }
+  .leftConatinerTop {
+      display: flex;
+      justify-content: space-between;
+      
+      
+  }
+  .leftConatiner {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+      
+      
+  }
+  .questionTrackerContainer {
+      background-color:rgba(37, 79, 186, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 15px;
+      height: 200px;
+      padding: 10px;
+      color: white;
+      
+  }
+  .questionText {
+      margin: 0 20px 10px;
+      
+  }
+  .finishBtn>button {
+      
+      background-color:rgba(255, 132, 0, 1);
+      padding: 7px;
+      border: none;
+      border-radius: 15px;
+      font-weight: 600;
+      margin-top: 10px;
+      cursor: pointer;
+      
+  }
+  .questions button {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid gray;
+      background-color: white;
+      border: none;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  .questions {
+      display: grid;
+      grid-template-columns: 30px 30px 30px 30px 30px;
+      row-gap: 10px;
+      column-gap: 5px;
+      margin: 0 20px;
+  }
+  .navBtns {
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  .navBtns>button {
+      background-color:rgba(255, 132, 0, 1);
+      padding: 7px;
+      border: none;
+      border-radius: 15px;
+      font-weight: 600;
+      margin-top: 10px;
+      cursor: pointer;
+  }
