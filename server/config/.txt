@@ -1,0 +1,30 @@
+turan@example.com
+securePassword123
+
+-- Вставляем курс
+INSERT INTO courses (id, title, image_url)
+VALUES (1, 'Основы HTML', '/assets/course/math.png');
+
+-- Вставляем тест
+INSERT INTO tests (id, course_id, duration_minutes, max_attempts)
+VALUES (1, 1, 20, 3);
+
+-- Вставляем вопросы и ответы
+INSERT INTO questions (id, test_id, question_text)
+VALUES 
+(1, 1, 'Что означает HTML?'),
+(2, 1, 'Что делает тег <a>?');
+
+-- Вставляем ответы для первого вопроса
+INSERT INTO answers (question_id, answer_text, is_correct) VALUES
+(1, 'HighText Machine Language', false),
+(1, 'HyperText Markup Language', true),
+(1, 'Hyper Tool Multi Language', false),
+(1, 'None of the above', false);
+
+-- Вставляем ответы для второго вопроса
+INSERT INTO answers (question_id, answer_text, is_correct) VALUES
+(2, 'Делает текст жирным', false),
+(2, 'Создаёт ссылку', true),
+(2, 'Вставляет изображение', false),
+(2, 'Ничего не делает', false);
